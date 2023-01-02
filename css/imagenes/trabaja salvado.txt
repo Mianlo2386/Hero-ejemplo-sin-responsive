@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 3/1 sin responsive</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <img src="css/imagenes/logoMoxa2.png" alt="">
+        <nav>
+            <a href=""><strong>HOME</strong></a>
+            <a href=""><strong>ABOUT</strong></a>
+            <a href=""><strong>WORKS</strong></a>
+            <a href=""><strong>CONTACT</strong></a>
+        </nav>
+        <a href="" class="letsTalk"><strong>Let´s talk</strong></a>
+    </header>
+    <main>
+        <section>
+            <div class="izquierda">
+                <h1>HI I'M TYLER</h1>
+                <h1>A CREATIVE <span><i class="bi bi-asterisk estilo asterisco"></i></span> DESIGNER</h1>
+                <h1>BASED IN <span>LONDON</span> </h1>
+                <h3>DESIGN  <i class="bi bi-asterisk estilo asterisco"></i> DEVELOPMENT <i class="bi bi-asterisk estilo asterisco"></i> WEBFLOW</h3>
+                <a href="" class="boton1">Got a project?</a>
+                <a href="" class="boton2"><strong>Let´s talk</strong></a>
+            </div>
+            <div>
+                
+                <div class="cruz"></div>
+                <div class="cruz2"></div>
+                <div class="cruz3"></div>
+                <div>
+                    <img class="moxaimagen" src="css/imagenes/moxaNuevo-recortada.png" alt="">
+                </div>
+             </div>
+    </section>
+    <section class="segunda">
+        <div class="textosA45">
+            <h4>
+                DESIGN
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                BRANDING
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                DEVELOPMENT
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                STRATEGY
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                PRODUCT DESIGN
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                MOTION GRAPHIC
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                ART DIRECTION
+            </h4>
+        </div>
+    </section>
+    <section>
+            <div class="izquierda">
+                <h1>HI I'M MESSI</h1>
+                <h1>A WORLD <span><i class="bi bi-asterisk estilo asterisco"></i></span> CHAMPION</h1>
+                <h1>BASED IN <span>SPAIN</span> </h1>
+                <h3>GOD  <i class="bi bi-asterisk estilo asterisco"></i> MASTER <i class="bi bi-asterisk estilo asterisco"></i> NUMBER ONE</h3>
+                <a href="" class="boton1">Got a project?</a>
+                <a href="" class="boton2"><strong>Let´s talk</strong></a>
+            </div>
+            <div    >
+
+
+
+
+                 <!-- 
+                <div class="cruz"></div>
+                <div class="cruz2"></div>
+                <div class="cruz3"></div> -->
+
+               <!--  <div>
+                    <img class="messiImagen" src="css/imagenes/messi_levantando.png" alt="">
+                </div> -->
+             </div>
+    </section>
+    <section>
+        <div class="textosA45">
+            <h4>
+                WE
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                ARE
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                THE
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                CHAMPIONS
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                WE
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                ARE
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                THE
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                CHAMPIONS
+            </h4>
+        </div>
+    </section>
+        
+
+    </main>
+    
+</body>
+</html>
+
+---------------------------------------------------------------------------
+
+css
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 3/1 sin responsive</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <img src="css/imagenes/logoMoxa2.png" alt="">
+        <nav>
+            <a href=""><strong>HOME</strong></a>
+            <a href=""><strong>ABOUT</strong></a>
+            <a href=""><strong>WORKS</strong></a>
+            <a href=""><strong>CONTACT</strong></a>
+        </nav>
+        <a href="" class="letsTalk"><strong>Let´s talk</strong></a>
+    </header>
+    <main>
+        <section>
+            <div class="izquierda">
+                <h1>HI I'M TYLER</h1>
+                <h1>A CREATIVE <span><i class="bi bi-asterisk estilo asterisco"></i></span> DESIGNER</h1>
+                <h1>BASED IN <span>LONDON</span> </h1>
+                <h3>DESIGN  <i class="bi bi-asterisk estilo asterisco"></i> DEVELOPMENT <i class="bi bi-asterisk estilo asterisco"></i> WEBFLOW</h3>
+                <a href="" class="boton1">Got a project?</a>
+                <a href="" class="boton2"><strong>Let´s talk</strong></a>
+            </div>
+            <div>
+                
+                <div class="cruz"></div>
+                <div class="cruz2"></div>
+                <div class="cruz3"></div>
+                <div>
+                    <img class="moxaimagen" src="css/imagenes/moxaNuevo-recortada.png" alt="">
+                </div>
+             </div>
+    </section>
+    <section class="segunda">
+        <div class="textosA45">
+            <h4>
+                DESIGN
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                BRANDING
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                DEVELOPMENT
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                STRATEGY
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                PRODUCT DESIGN
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                MOTION GRAPHIC
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                ART DIRECTION
+            </h4>
+        </div>
+    </section>
+    <section>
+            <div class="izquierda">
+                <h1>HI I'M MESSI</h1>
+                <h1>A WORLD <span><i class="bi bi-asterisk estilo asterisco"></i></span> CHAMPION</h1>
+                <h1>BASED IN <span>SPAIN</span> </h1>
+                <h3>GOD  <i class="bi bi-asterisk estilo asterisco"></i> MASTER <i class="bi bi-asterisk estilo asterisco"></i> NUMBER ONE</h3>
+                <a href="" class="boton1">Got a project?</a>
+                <a href="" class="boton2"><strong>Let´s talk</strong></a>
+            </div>
+            <div    >
+
+
+
+
+                 <!-- 
+                <div class="cruz"></div>
+                <div class="cruz2"></div>
+                <div class="cruz3"></div> -->
+
+               <!--  <div>
+                    <img class="messiImagen" src="css/imagenes/messi_levantando.png" alt="">
+                </div> -->
+             </div>
+    </section>
+    <section>
+        <div class="textosA45">
+            <h4>
+                WE
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                ARE
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                THE
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                CHAMPIONS
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                WE
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                ARE
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                THE
+            </h4>
+            <i class="bi bi-asterisk estilo asterisco"></i>
+            <h4>
+                CHAMPIONS
+            </h4>
+        </div>
+    </section>
+        
+
+    </main>
+    
+</body>
+</html>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Solway&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --colorOriginal: rgb(245,223,78);
+    --colorElegido: rgb(120,240,121);
+    --colorParaFondo: rgb(248,249,250);
+    --colorOpcional: rgb(243,241,239);
+    --colorMoxa: rgb(234,77,53);
+    --paraBordes: 1px solid black;
+}
+header { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--colorOpcional);
+    width: 100%;
+    /* border: var(--paraBordes); */
+    position: fixed;
+    z-index: 30;
+    font-family: Solway, vursive;
+}
+header nav {
+    /* border: var(--paraBordes); */
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav a {
+    /* border: 1px solid grey; */
+    text-decoration: none;
+    
+    color: grey;
+    font-size: 80%;
+}
+.letsTalk {
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 10px 15px;
+    color: grey;
+}  
+main {
+    font-family: Solway, cursive;
+}
+section {
+    width: 1350px;
+    height: 600px;
+    border:1px solid black;
+    background-color: var(--colorOpcional);
+    display: flex;
+    
+}
+.izquierda {
+    width:: 40%;
+    height: 200px;
+    /* padding: 120px 100px; */
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: 145px;
+    /* border:1px solid red; */
+    text-align: left;
+
+    align-items: center;
+    justify-content: center;
+    /* transform: rotateZ(-15deg); */
+}
+h1 {
+    width: 650px;
+    height: 70px;
+    font-size: 300%;
+    /* border: 1px solid blue; */
+}
+h1 span {
+    text-decoration: line-through;
+}
+.izquierda h3 {
+    /* border: var(--paraBordes); */
+    padding: 20px 0;
+}
+.asterisco {
+    color: var(--colorMoxa);
+}
+.boton1 {
+    border: var(--paraBordes); 
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+.boton2 {
+    border: 1px solid grey;
+    text-decoration: none;
+    color: grey;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px; 
+    border-radius: 2px;  
+}
+.cruz {
+   
+    position: relative;
+    width: 300px;
+    height: 50px;
+    border: 4px solid var(--colorMoxa);
+    margin-top: 230px;
+    margin-left: 100px;
+    transform: rotateZ(-45deg);
+    background-color: var(--colorOpcional);
+    
+}
+.cruz2 {
+   
+
+    width: 300px;
+    height: 50px;
+    border: 4px solid var(--colorMoxa);
+    margin-top: -55px;
+    margin-left: 100px;
+    transform: rotateZ(45deg);
+    background-color: var(--colorOpcional);
+
+}
+.cruz3 {
+   
+
+    width: 300px;
+    height: 50px;
+    border: 4px solid var(--colorMoxa);
+    margin-top: -62px;
+    margin-left: 100px;
+    background-color: var(--colorOpcional);
+
+}
+.segunda {
+    width: 100%;
+    height: 10px;
+}
+.moxaimagen {
+    width: 95%;
+    height: 95%;
+    /* border: var(--paraBordes); */
+    position: relative;
+    z-index: 10;
+    left: 55px;
+    top: -210px;
+}
+.textosA45 {
+    width: 1350px;
+    height: 78px;
+    border:var(--paraBordes);
+    transform: rotateZ(-3deg);
+    background-color: black;
+    color: white;
+    margin-top: -115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 20;
+}
+.messiImagen {
+    width: 95%;
+    height: 95%;
+    /* border: var(--paraBordes); */
+    position: relative;
+    z-index: 10;
+    left: 55px;
+    top: -230px;
+}

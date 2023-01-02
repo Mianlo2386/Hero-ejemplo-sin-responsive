@@ -137,14 +137,10 @@ h1 span {
     background-color: var(--colorOpcional);
 
 }
-/* .derecha {
-    width: 100px;
-    height: 400px;
-    margin: auto auto;
-    border: var(--paraBordes); 
-    z-index: -1;
-
-} */
+.segunda {
+    width: 100%;
+    height: 20px;
+}
 .moxaimagen {
     width: 95%;
     height: 95%;
@@ -157,14 +153,126 @@ h1 span {
 .textosA45 {
     width: 1350px;
     height: 78px;
-    border:var(--paraBordes);
+    /* border:var(--paraBordes); */
     transform: rotateZ(-3deg);
     background-color: black;
     color: white;
-    margin-top: -115px;
+    margin-top: -110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
     z-index: 20;
 }
+.messiImagen {
+    width: 105%;
+    height: 70%;
+    /* border: var(--paraBordes); */
+    position: relative;
+    z-index: 10;
+    left: -155px;
+    top: 10px;
+    
+}
+.contenedor {
+    position: relative;
+    left: 120px;
+    top: 80px;
+    z-index: 0;
+
+}
+ .estrella {
+
+    margin: 50px 0;
+
+    position: relative;
+
+    display: block;
+
+    color: yellow;
+
+    width: 0px;
+
+    height: 0px;
+
+    border-right: 100px solid transparent;
+
+    border-bottom: 70px solid yellow;
+
+    border-left: 100px solid transparent;
+
+    transform: rotate(35deg);
+
+}
+
+.estrella:before {
+
+    border-bottom: 80px solid yellow;
+
+    border-left: 30px solid transparent;
+
+    border-right: 30px solid transparent;
+
+    position: absolute;
+
+    height: 0px;
+
+    width: 0px;
+
+    top: -45px;
+
+    left: -65px;
+
+    display: block;
+
+    content: '';
+
+    transform: rotate(-35deg);
+
+}
+
+.estrella:after {
+
+    position: absolute;
+
+    display: block;
+
+    color: yellow;
+
+    top: 3px;
+
+    left: -105px;
+
+    width: 0px;
+
+    height: 0px;
+
+    border-right: 100px solid transparent;
+
+    border-bottom: 70px solid yellow;
+
+    border-left: 100px solid transparent;
+
+    transform: rotate(-70deg);
+
+    content: '';
+
+} 
+.textosA452 {
+    width: 1350px;
+    height: 78px;
+    /* border:var(--paraBordes); */
+    transform: rotateZ(-3deg);
+    background-color: black;
+    color: white;
+    margin-top: -155px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 20;
+}
+.star {
+    color: yellow;
+}
+
